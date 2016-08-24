@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopSpotsAPI", "TopSpotsAPI\TopSpotsAPI.csproj", "{52F6E1B8-6D2F-4FEB-9993-E0F32FD342AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopSpotsAPI", "TopSpotsAPI\TopSpotsAPI.csproj", "{FD2A121A-2B2E-451C-951A-BB37ADD02B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopSpotsAPI.Tests", "TopSpotsAPI.Tests\TopSpotsAPI.Tests.csproj", "{D02B2917-F5C9-4A21-8CC7-10CDC8A01AC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{52F6E1B8-6D2F-4FEB-9993-E0F32FD342AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52F6E1B8-6D2F-4FEB-9993-E0F32FD342AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52F6E1B8-6D2F-4FEB-9993-E0F32FD342AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52F6E1B8-6D2F-4FEB-9993-E0F32FD342AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2A121A-2B2E-451C-951A-BB37ADD02B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2A121A-2B2E-451C-951A-BB37ADD02B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2A121A-2B2E-451C-951A-BB37ADD02B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2A121A-2B2E-451C-951A-BB37ADD02B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02B2917-F5C9-4A21-8CC7-10CDC8A01AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02B2917-F5C9-4A21-8CC7-10CDC8A01AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02B2917-F5C9-4A21-8CC7-10CDC8A01AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02B2917-F5C9-4A21-8CC7-10CDC8A01AC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
